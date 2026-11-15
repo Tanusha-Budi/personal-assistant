@@ -7,3 +7,4 @@ dist/
 backend/secrets/
 token.json
 .vscode/
+logs/

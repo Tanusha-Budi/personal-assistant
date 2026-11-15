@@ -1,8 +1,7 @@
 from google_auth_oauthlib.flow import InstalledAppFlow
 
 from app.config import settings
-
-SCOPES = ["https://www.googleapis.com/auth/calendar.readonly"]
+from app.services.google_auth import SCOPES
 
 
 def main():
